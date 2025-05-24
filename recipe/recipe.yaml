@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: clypi
-  version: "1.4.4"
+  version: "1.4.5"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/clypi-${{ version }}.tar.gz
-  sha256: d3bb817c59b0503343a3db55410b2b845b244ef172e27b5efdf11a9a09b38f17
+  sha256: ca7f1bddcba91db0b5b849371fb661e376c20edfc06e2035b8aefaadbb61cf46
 
 build:
   number: 0
